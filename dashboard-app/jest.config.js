@@ -21,5 +21,9 @@ module.exports = {
   snapshotSerializers: ['enzyme-to-json/serializer'],
   moduleNameMapper: {
     '\\.(css|less|styl|scss|sass|sss)$': 'identity-obj-proxy',
-  }
+  },
+  setupFiles: [
+    'jest-canvas-mock'
+  ],
+
 };
