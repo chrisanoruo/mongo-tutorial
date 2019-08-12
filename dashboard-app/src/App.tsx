@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import 'antd/dist/antd.css';
 import { Row, Col, Card, Layout, Spin } from 'antd';
 
