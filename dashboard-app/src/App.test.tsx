@@ -9,14 +9,21 @@ configure({ adapter: new Adapter() });
 
 // const App = () => {};
 
-it('should be ok', () => {
-  const flag = 1;
-  expect(flag).toBe(1);
-})
+// it('should be ok', () => {
+//   const flag = 1;
+//   expect(flag).toBe(1);
+// })
 
-// describe('test', () => {
-//   it('should pass', () => {
-//     const div = shallow(<App />);
-//     expect(div).toMatchSnapshot();
-//   });
+// it('renders without crashing', () => {
+//   const div = document.createElement('div');
+//   ReactDOM.render(<App />, div);
+//   ReactDOM.unmountComponentAtNode(div);
 // });
+
+describe('App', () => {
+  it('renders correctly', () => {
+    const wrapper = shallow(<App />);
+    expect(wrapper).toMatchSnapshot();
+    // On the first run of this test, Jest will generate a snapshot file automatically.
+  });
+});

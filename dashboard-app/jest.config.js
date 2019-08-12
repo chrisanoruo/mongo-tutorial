@@ -16,11 +16,10 @@ module.exports = {
     'ts'
   ],
   testEnvironment: 'node',
-  transformIgnorePatterns: ['<rootDir>/node_modules'],
+  // transformIgnorePatterns: ['<rootDir>/node_modules'],
   // Setup Enzyme
   snapshotSerializers: ['enzyme-to-json/serializer'],
   moduleNameMapper: {
     '\\.(css|less|styl|scss|sass|sss)$': 'identity-obj-proxy',
-  },
-  // setupTestFrameworkScriptFile: '<rootDir>/src/setupEnzyme.ts',
+  }
 };
