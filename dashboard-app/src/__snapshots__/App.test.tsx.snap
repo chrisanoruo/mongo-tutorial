@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<Adapter>
+  <Adapter>
+    <h2
+      style={
+        Object {
+          "color": "#fff",
+        }
+      }
+    >
+      MongoDB Dashboard
+    </h2>
+  </Adapter>
+  <Adapter
+    style={
+      Object {
+        "margin": "25px",
+        "padding": "25px",
+      }
+    }
+  >
+    <Row
+      align="top"
+      gutter={24}
+      justify="space-around"
+      type="flex"
+    >
+      <Col
+        lg={12}
+        span={24}
+      >
+        <Card
+          style={
+            Object {
+              "marginBottom": "24px",
+            }
+          }
+          title="Zip count by state"
+        >
+          <QueryRenderer
+            cubejsApi={
+              CubejsApi {
+                "apiToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDkzMDk3NzMsImV4cCI6MTU0OTM5NjE3M30.eXEdfUa_ek2V9MlGTpBMOd_AFfs8laaZj8ZsuM1wqqo",
+                "apiUrl": "http://localhost:4000/cubejs-api/v1",
+              }
+            }
+            query={
+              Object {
+                "dimensions": Array [
+                  "Zips.state",
+                ],
+                "measures": Array [
+                  "Zips.count",
+                ],
+              }
+            }
+            render={[Function]}
+          />
+        </Card>
+      </Col>
+    </Row>
+  </Adapter>
+</Adapter>
+`;
+
+exports[`test should pass 1`] = `
+<Adapter>
+  <Adapter>
+    <h2
+      style={
+        Object {
+          "color": "#fff",
+        }
+      }
+    >
+      MongoDB Dashboard
+    </h2>
+  </Adapter>
+  <Adapter
+    style={
+      Object {
+        "margin": "25px",
+        "padding": "25px",
+      }
+    }
+  >
+    <Row
+      align="top"
+      gutter={24}
+      justify="space-around"
+      type="flex"
+    >
+      <Col
+        lg={12}
+        span={24}
+      >
+        <Card
+          style={
+            Object {
+              "marginBottom": "24px",
+            }
+          }
+          title="Zip count by state"
+        >
+          <QueryRenderer
+            cubejsApi={
+              CubejsApi {
+                "apiToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDkzMDk3NzMsImV4cCI6MTU0OTM5NjE3M30.eXEdfUa_ek2V9MlGTpBMOd_AFfs8laaZj8ZsuM1wqqo",
+                "apiUrl": "http://localhost:4000/cubejs-api/v1",
+              }
+            }
+            query={
+              Object {
+                "dimensions": Array [
+                  "Zips.state",
+                ],
+                "measures": Array [
+                  "Zips.count",
+                ],
+              }
+            }
+            render={[Function]}
+          />
+        </Card>
+      </Col>
+    </Row>
+  </Adapter>
+</Adapter>
+`;
