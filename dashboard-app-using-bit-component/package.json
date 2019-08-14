@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/toptalentdev81.chart.zip-chart": "^1.0.0",
     "@cubejs-client/core": "^0.10.16",
     "@cubejs-client/react": "^0.10.16",
     "antd": "^3.21.4",
