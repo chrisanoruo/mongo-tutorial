@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Row, Col, Card, Layout, Spin, Statistic, Table } from "antd";
 import "antd/dist/antd.css";
-import "./index.css";
 import cubejs from "@cubejs-client/core";
 import { QueryRenderer } from "@cubejs-client/react";
 import { Chart, Axis, Tooltip, Geom, Coord, Legend } from "bizcharts";
