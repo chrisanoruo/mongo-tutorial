@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "@cubejs-backend/mongobi-driver": "^0.10.16",
-    "@cubejs-backend/server": "^0.10.21"
+    "@cubejs-backend/server": "^0.30.75"
   }
 }
